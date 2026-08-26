@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var precioInicial, precioFinal
+
+        precioInicial = prompt("Ingrese el precio del producto")
+
+        if(precioInicial >= 10000){
+            precioFinal = precioInicial - (precioInicial * 0.1)
+        }
+        else{
+            precioFinal = precioInicial
+        }
+
+        document.write("El precio final es: ", precioFinal)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

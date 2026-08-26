@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var diaSemana, dia
+        
+        diaSemana = Number(prompt("Ingrese dia de la semana(del 1 al 7)"))
+        if(diaSemana > 0 && diaSemana <= 7){
+            switch(diaSemana) {
+                case 1:
+                    dia = "Lunes" 
+                break
+                case 2:
+                    dia = "Martes"
+                    break
+                case 3:
+                    dia = "Miercoles"
+                    break
+                case 4: 
+                    dia = "Jueves"
+                    break
+                case 5:
+                    dia ="Viernes"
+                    break
+                case 6: 
+                    dia = "Sabado"
+                    break
+                case 7:
+                    dia = "Domingo"
+                    break    
+            }
+        document.write("El dia seleccionado es: ", dia)        
+        }
+        else{
+            document.write("Dia invalido.")
+        }
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

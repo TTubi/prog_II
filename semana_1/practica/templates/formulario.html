@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+</head>
+<body>
+    <header>
+        <a href="../templates/index.html">Inicio</a>
+        <a href="../templates/galeria.html">Galeria</a>
+        <a href="../templates/tabla.html">Tabla</a>
+        <a href="../templates/lista.html">Lista</a>
+        <a href="../templates/formulario.html"> Formulario</a>
+        <br><br>
+    </header>
+
+    <main>
+        <h1>FORMULARIO</h1>
+        <section>
+            <div>
+                <form method="post" action="https://formspree.io/f/xljrjvdn">
+                    <label for="nombre">Nombre</label><br>
+                    <input type="text" name="nombre" id="nombre" class="inp">
+
+                    <br><br>
+
+                    <label for="apellido">Apellido</label><br>
+                    <input type="text" name="apellido" id="apellido" class="inp">
+
+                    <br><br>
+
+                    <label for="email">Correo electronico</label><br>
+                    <input type="email" name="email" id="email" class="inp">
+                    
+                    <br><br>
+
+                    
+                    <h3>Genero</h3>
+                    <select name="genero" id="genero">
+                        <option value="F">Femenino</option>
+                        <option value="M">Masculino</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+
+                    <br><br>
+
+                    <h3>Area por desarrollarse</h3>
+                    <input type="radio" name="opcion" id="1">App Web
+                    <input type="radio" name="opcion" id="2">Analisis de datos
+                    <input type="radio" name="opcion" id="3">Desarrollo de juegos
+
+                    <br><br>
+
+                    <h3>Seleccionar tecnologia:</h3>
+                    <input type="checkbox">HTML
+                    <input type="checkbox">CSS
+                    <input type="checkbox">JS
+
+                    <br><br>
+
+                    <h3>Seleccionar navegador</h3>
+                    <select name="nav" id="">
+                        <option value="chrome">Chrome</option>
+                        <option value="chrome">Mozilla</option>
+                        <option value="chrome">Brave</option>
+                    </select>
+
+                    <br><br>
+
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <label for="">Telefono</label>
+                        <input type="number">
+                        
+                        <br><br>
+
+                        <label for="">Titulo secundario</label>
+                        <input type="file">
+
+                    </fieldset>
+
+                    <br><br>
+
+                    Informacion adicional: <br><textarea name="comentario" id="" rows="10" cols="40"></textarea>
+
+                    <br><br>
+                    
+                    <button type="submit">Enviar</button> 
+                    <button type="reset">Borrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+</body>
+</html>
